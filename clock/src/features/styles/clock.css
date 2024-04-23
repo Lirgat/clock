@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Skogen';
+    src: url('../fonts/skogenspelfont.woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block {
+    position: relative;
+    width: 50%;
+}
+.block__img {
+    width: 100%;
+}
+.full {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.block__clock {
+    position: absolute;
+    top: 38%;
+    left: 18%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    font-size: clamp(1rem, -0.9305rem + 10.2959vw, 11.875rem);
+    color: rgb(223, 58, 58);
+    font-family: 'Skogen';
+    font-weight: normal;
+}
